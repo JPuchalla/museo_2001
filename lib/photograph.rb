@@ -9,11 +9,9 @@ class Photograph
     @year = name[:year]
   end
 
-
   def id
     @identification
   end
-
 
   def name
     @name

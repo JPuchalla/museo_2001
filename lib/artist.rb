@@ -10,11 +10,9 @@ class Artist
     @country = name[:country]
   end
 
-
   def id
     @identification
   end
-
 
   def name
     @name
