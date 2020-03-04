@@ -15,7 +15,7 @@ class Curator
   end
 
   def find_artist_by_id(id)
-  
+  require "pry"; binding.pry
 
   end
 
