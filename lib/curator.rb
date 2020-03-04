@@ -15,9 +15,7 @@ class Curator
   end
 
   def find_artist_by_id(id)
-    if id == "1"
-      p id
-    end
+  
 
   end
 
