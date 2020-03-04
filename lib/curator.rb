@@ -15,7 +15,11 @@ class Curator
   end
 
   def find_artist_by_id(id)
-  require "pry"; binding.pry
+    @artists.find do |artist|
+      artist.id == id
+    end
+
+
 
   end
 
